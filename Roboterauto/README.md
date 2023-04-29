@@ -13,3 +13,4 @@ Nachdem die Vorderachse fertig war, zeichneten wir auf Millimeterpapier ein Lenk
 Für die Stromversorgung verwenden wir eine 12 Volt Lipo Batterie, die wir auf dem hinteren Teil unseres Autos befestigen.
 Den Motor, den wir verwenden, haben wir aus dem Totem Maker Bausystem erhalten. Für die Steuerung des Motors und der Sensoren verwenden wir einen Arduino Nano. 
 Ein LCD Monitor gibt uns Feedback zu dem aktuell laufendem Programm. 
+Vorne auf dem Auto haben wir einen Kameraturm mit der Husky Lens montiert.
