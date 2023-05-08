@@ -74,7 +74,7 @@ und reparieren können.
 ![image](https://user-images.githubusercontent.com/131177565/236902868-fe6987f2-450b-4a82-ad03-88c99bf6b534.png)
 
 
-LCD Feedback
-LCD Schrift (5V - 4.7V) Extra Stromleiste
+
+
 
 
