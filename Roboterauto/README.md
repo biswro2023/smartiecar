@@ -52,7 +52,7 @@ Bild (Reifen)
 
 Damit wir den Arduino auf dem Auto befestigen können, haben wir zuerst eine vorgeschnitte Kunststoffplatte aus dem Funduino Bauset benutzt. 
 Diese ist aber leider gebrochen, weshalb wir eine neue Platte aus enem dickerem Kunststoff schneiden mussten.
-Der Aurduino ist nun mit kunststoff Abständen an dieser Platte fest geschraubt.
+Der Aurduino ist nun mit Kunststoff Abständen an dieser Platte fest geschraubt.
 
 Bild(Arduino)
 
@@ -66,6 +66,12 @@ Deshalb haben wir sowohl für die Stromversorgung des LCD-Monitors als auch für
 Bild(Stromleiste)
 
 Oben auf unserem Auto haben wir neben dem LCD-Monitor und der Stromleiste außerdem auch noch den Button für den Start und den Gyro für die Kurven montiert.
+Zu Beginn hatten wir einen anderen größeren Button verwendet. Weil der jedoch einen großen Wiederstandhatte, der das Auto beim drücken mit nach unten drückte, und weil er nicht gut erreichbar montiert war,
+haben wir den Button ausgetauscht zu dem Button, den wir jetzt verwenden.
+Anschließend haben wir uns um das Kabelmanagement gekümmert. Wir haben die wichtigen Anschlüsse des Hauptsromsystems an der Außenseite mit schnell verschlüssen befestigt, da mit wir das Auto schnell warten 
+und reparieren können.
+
+![image](https://user-images.githubusercontent.com/131177565/236902868-fe6987f2-450b-4a82-ad03-88c99bf6b534.png)
 
 
 LCD Feedback
