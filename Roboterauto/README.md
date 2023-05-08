@@ -36,7 +36,7 @@ Um die Position der Hinterachse zu bestimmen haben wir mit Hilfe einer Bauzeichn
 ![Bodenplatte-1](https://user-images.githubusercontent.com/131177565/235682426-33cb649e-8ef1-453e-b3f9-9b506c7610f3.png)
 
 Die hinterachse mit dem Motor haben wir dann auf die Bodenplatte geschraubt.
-Der Motor ist mit einer 1:1 überetzung mit zwei Zahnrädern an der Hinterachse angeschlossen.
+Der Motor ist mit einer 1:1 Überetzung mit zwei Zahnrädern an der Hinterachse angeschlossen.
 Anschließend haben wir uns überlegt und ausprobiert, wie wir die elektronischen Bauteile auf dem Auto befestigen. 
 Der Motorkontroller so wie unseren Hauptstromschalter haben wir auch auf der Bodenplatte befestigt. 
 Der Lipo-Akku liegt auf dem Rahmen unseres Autos.
@@ -48,11 +48,24 @@ Die Reifen rutschten weniger, aber die Reifen drehten manchmal immernoch durch, 
 Jetzt und Final verwenden wir Reifen, die sehr hart sind und kein Profil besitzen, wodurch der Bodenkontakt maximiert wird.
 Diese Reifen haben wir aus dem Modellbauladen erhalten.
 
-Bild
+Bild (Reifen)
 
-Damit wir den Arduino auf dem Auto befestigen können, haben wir zuerst eine vorgeschnitte Kunststoffplatte aus dem Funduino Bauset genommen. 
+Damit wir den Arduino auf dem Auto befestigen können, haben wir zuerst eine vorgeschnitte Kunststoffplatte aus dem Funduino Bauset benutzt. 
 Diese ist aber leider gebrochen, weshalb wir eine neue Platte aus enem dickerem Kunststoff schneiden mussten.
+Der Aurduino ist nun mit kunststoff Abständen an dieser Platte fest geschraubt.
 
+Bild(Arduino)
+
+Als der Ardunio befestigt war konnten wir schließlich Programme für das Auto schreiben und ausprobieren.
+Um auch Feedback zu Problemen oder Erfolgen zu erhalten, haben wir ein LCD-Monitor auf dem Auto befestigt.
+Dieser Monitor gibt sowohl am Anfang des Programmes Informationen über die Sensoren als Text, als auch durch den verschieden farbigen Hintergrund Informationen über den Aktuellen Status des Programmes.
+Als wir den Monitor zum erstem mal angeschlossen hatten, konten wir nichts erkennen. der Monitor zeigte kein Text oder Farbe.
+Wir fanden herraus, dass der Monitor 5 Volt benötigt, wir ihn aber nur 4.7 Volt angeschlossen hatten.
+Deshalb haben wir sowohl für die Stromversorgung des LCD-Monitors als auch für die Stromversorgungs unseres Lenkservos eine extra Stromversorgungsleiste eingebaut
+
+Bild(Stromleiste)
+
+Oben auf unserem Auto haben wir neben dem LCD-Monitor und der Stromleiste außerdem auch noch den Button für den Start und den Gyro für die Kurven montiert.
 
 
 LCD Feedback
