@@ -48,13 +48,14 @@ Die Reifen rutschten weniger, aber die Reifen drehten manchmal immernoch durch, 
 Jetzt und Final verwenden wir Reifen, die sehr hart sind und kein Profil besitzen, wodurch der Bodenkontakt maximiert wird.
 Diese Reifen haben wir aus dem Modellbauladen erhalten.
 
-Bild (Reifen)
+![image0 (1)](https://github.com/biswro2023/smartiecar/assets/131177565/c86c0d01-40ef-4458-8a59-f7c86a03f72b)
+
 
 Damit wir den Arduino auf dem Auto befestigen können, haben wir zuerst eine vorgeschnitte Kunststoffplatte aus dem Funduino Bauset benutzt. 
 Diese ist aber leider gebrochen, weshalb wir eine neue Platte aus enem dickerem Kunststoff schneiden mussten.
 Der Aurduino ist nun mit Kunststoff Abständen an dieser Platte fest geschraubt.
 
-Bild(Arduino)
+![image1](https://github.com/biswro2023/smartiecar/assets/131177565/343355ef-cd43-4d30-9ed9-53aeb299f880)
 
 Als der Ardunio befestigt war konnten wir schließlich Programme für das Auto schreiben und ausprobieren.
 Um auch Feedback zu Problemen oder Erfolgen zu erhalten, haben wir ein LCD-Monitor auf dem Auto befestigt.
@@ -63,7 +64,7 @@ Als wir den Monitor zum erstem mal angeschlossen hatten, konten wir nichts erken
 Wir fanden herraus, dass der Monitor 5 Volt benötigt, wir ihn aber nur 4.7 Volt angeschlossen hatten.
 Deshalb haben wir sowohl für die Stromversorgung des LCD-Monitors als auch für die Stromversorgungs unseres Lenkservos eine extra Stromversorgungsleiste eingebaut
 
-Bild(Stromleiste)
+![image0 (2)](https://github.com/biswro2023/smartiecar/assets/131177565/ef6eb164-e023-4361-834d-cc200a337ebe)
 
 Oben auf unserem Auto haben wir neben dem LCD-Monitor und der Stromleiste außerdem auch noch den Button für den Start und den Gyro für die Kurven montiert.
 Zu Beginn hatten wir einen anderen größeren Button verwendet. Weil der jedoch einen großen Wiederstandhatte, der das Auto beim drücken mit nach unten drückte, und weil er nicht gut erreichbar montiert war,
@@ -72,8 +73,6 @@ Anschließend haben wir uns um das Kabelmanagement gekümmert. Wir haben die wic
 und reparieren können.
 
 ![image](https://user-images.githubusercontent.com/131177565/236902868-fe6987f2-450b-4a82-ad03-88c99bf6b534.png)
-
-
 
 
 
