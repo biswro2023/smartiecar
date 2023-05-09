@@ -1,7 +1,7 @@
 Future Engineers - Smartriders 
 ====
 
-## Content
+## Inhalt
 
 * Der Ordner `Programmcode` enthält den kompletten Programmcode, der für das Roboterauto verwendet wird.
 * Im Ordner `Roboterauto` sind sechs Fotos abgelegt werden, die das Roboterauto aus allen Richtungen zeigen.
