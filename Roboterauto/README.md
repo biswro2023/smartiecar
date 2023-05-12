@@ -4,38 +4,35 @@ Roboterauto
 Prozess:
 
 
-Zu Beginn haben wir die ersten Schritte der im Totem Maker Bausystem beigelegten Bauanleitung befolgt, um einen stabilen rahemn für das Auto zu erhalten. 
+Zu Beginn haben wir die ersten Schritte, der im Totem Maker Bausystem beigelegten Bauanleitung befolgt, um einen stabilen Rahmen für das Auto zu erhalten. 
 
 ![Frame](https://user-images.githubusercontent.com/131177565/235680006-affdd363-4297-4a06-9caa-a8125de43fb9.png)
 
-Da das Auto, das die Anleitung beschreibt zu breit ist, mussten wir die vorderachse kürzen, damit unser Auto die vorgeschriebene Breite nicht überschreitet.
+Da das Auto, das die Anleitung beschreibt zu breit ist, mussten wir die Vorderachse kürzen. So überschreitet unser Auto die vorgegebenen Maße nicht.
 
 ![image1](https://user-images.githubusercontent.com/131177565/235680801-dcf372b3-89f4-4a34-b5b8-66f85cb70028.jpeg)
 
-Die 3d gedruckten Teile, der Vorderachse stammen aus der STL-Libary von Totem Maker.
-Zu dem Zeitpunkt haben wir die standard Reifen des Totem Maker Beusets verwendet. 
-Danach haben wir eine Bodenplatte aus 4mm dickem Kunststoff geschnitten und an das auto geschraubt.
+Die 3D gedruckten Teile, der Vorderachse stammen aus der STL-Libary von Totem Maker.
+Zu dem Zeitpunkt haben wir die standard Reifen des Totem Maker Bausystems verwendet. 
+Danach haben wir eine Bodenplatte aus 4mm dickem Kunststoff geschnitten und an die Vorderachse geschraubt.
 Wir haben eine 4mm Platte genommen, da wir vermuteten, dass eine Platte, die nur 2mm dick ist, schnell brechen würde.
-Um die Position der Hinterachse zu bestimmen haben wir mit Hilfe einer Bauzeichnung  unsere Bodenplatte ein Lenkdreieck gezeichnet.
+Um die Position der Hinterachse zu bestimmen haben wir mit Hilfe einer Bauzeichnung  unserer Bodenplatte ein Lenkdreieck gezeichnet.
 
 ![Bodenplatte-1](https://user-images.githubusercontent.com/131177565/235682426-33cb649e-8ef1-453e-b3f9-9b506c7610f3.png)
 
-Die hinterachse mit dem Motor haben wir dann auf die Bodenplatte geschraubt.
+Die Hinterachse und den Motor haben wir dann auf die Bodenplatte geschraubt.
 Der Motor ist mit einer 1:1 Überetzung mit zwei Zahnrädern an der Hinterachse angeschlossen.
 Anschließend haben wir uns überlegt und ausprobiert, wie wir die elektronischen Bauteile auf dem Auto befestigen. 
 Der Motorkontroller so wie unseren Hauptstromschalter haben wir auch auf der Bodenplatte befestigt. 
 Der Lipo-Akku liegt auf dem Rahmen unseres Autos.
 
 Bei den ersten Testfahrten ist uns aufgefallen, dass unsere Reifen, die wir aus dem Totem Maker Bausystem genommen haben, zu groß sind und am 
-Rahmen reiben. Die zweiten Reifen waren kleiner und härter, aber sie überteuerten oft wenn das Auto zu sehr einllenkt.
-Danach sind wir auf die Reifen des Funduino Baukastens ungestiegen, die härter waren und mehr Bodenkontakt durch das kleinere Profil besitzen.
+Rahmen schleifen. Die zweiten Reifen uas dem Funduino Bauset waren kleiner und härter, aber sie übersteuerten oft wenn das Auto zu sehr einlenk.
 Das Problem war dadurch teilweise gelöst.
-Die Reifen rutschten weniger, aber die Reifen drehten manchmal immernoch durch, weshalb unsere kurven ungenau wurden.
 Jetzt und Final verwenden wir Reifen, die sehr hart sind und kein Profil besitzen, wodurch der Bodenkontakt maximiert wird.
-Diese Reifen haben wir aus dem Modellbauladen erhalten.
+Diese Reifen haben wir aus einem Modellbauladen erhalten.
 
 ![image0 (1)](https://github.com/biswro2023/smartiecar/assets/131177565/c86c0d01-40ef-4458-8a59-f7c86a03f72b)
-
 
 Damit wir den Arduino auf dem Auto befestigen können, haben wir zuerst eine vorgeschnitte Kunststoffplatte aus dem Funduino Bauset benutzt. 
 Diese ist aber leider gebrochen, weshalb wir eine neue Platte aus enem dickerem Kunststoff schneiden mussten.
@@ -46,6 +43,7 @@ Der Aurduino ist nun mit Kunststoff Abständen an dieser Platte fest geschraubt.
 Als der Ardunio befestigt war konnten wir schließlich Programme für das Auto schreiben und ausprobieren.
 Um auch Feedback zu Problemen oder Erfolgen zu erhalten, haben wir ein LCD-Monitor auf dem Auto befestigt.
 Dieser Monitor gibt sowohl am Anfang des Programmes Informationen über die Sensoren als Text, als auch durch den verschieden farbigen Hintergrund Informationen über den Aktuellen Status des Programmes.
+
 Als wir den Monitor zum erstem mal angeschlossen hatten, konten wir nichts erkennen. der Monitor zeigte kein Text oder Farbe.
 Wir fanden herraus, dass der Monitor 5 Volt benötigt, wir ihn aber nur 4.7 Volt angeschlossen hatten.
 Deshalb haben wir sowohl für die Stromversorgung des LCD-Monitors als auch für die Stromversorgungs unseres Lenkservos eine extra Stromversorgungsleiste eingebaut
