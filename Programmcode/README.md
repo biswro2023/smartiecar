@@ -13,3 +13,7 @@ Als auch programme zum testen ob diverse sensoren funktionieren. Zudem Backup Co
 · [`Ultraschall_test_V`](https://github.com/biswro2023/smartiecar/tree/master/Programmcode/Ultraschall_test_V)
 
 · [`backup codes`](https://github.com/biswro2023/smartiecar/tree/master/Programmcode/backup%20codes)
+
+![Diagramm_Hindernisse](https://github.com/biswro2023/smartiecar/assets/131591590/263c1bce-014c-4458-99a9-e519d6a30377)
+
+![Diagramm_Eröffnung](https://github.com/biswro2023/smartiecar/assets/131591590/fbee0cb2-4aab-434d-a97d-d06e2026ba62)
