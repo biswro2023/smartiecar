@@ -8,12 +8,12 @@ READ ME
 Wir haben  uns für das Totem Maker Bausystem entschieden, um das Chassie zu bauen. Andere Teile, die wir benötigten, haben wir selbst angefertigt.
 Unsere Grundidee für das Eröffnungsrennen war, dass wir uns mit Hilfe von drei Sensoren (rechts,links, vorne) an den Abständen zur Spielfeldbbegerenzungen zu orientieren.
 Zusätzlich haben wir für das fahren für der Kurven einen Farbsensor und ein Gyroskop eingebaut. Im Eröffnungsrennenbenutzen wir nur das Gyroskop.
-Zuerst haben wir einen Rahen aus Teilen des Totem Maker Bausystem angefertigt. Anschließend schnitten wir aus einer 4mm Plastikplatte die Bodenplatte aus und befestigten den Rahem darauf.
+Zuerst haben wir einen Rahmen aus Teilen des Totem Maker Bausystems angefertigt. Anschließend schnitten wir aus einer 4mm Plastikplatte die Bodenplatte aus und befestigten den Rahem darauf.
 Nachdem die Vorderachse fertig war, zeichneten wir auf Millimeterpapier ein Lenkdreieck, um die Position der Hinterachse zu bestimmmen. 
 Für die Stromversorgung verwenden wir eine 12 Volt Lipo Batterie, die wir auf dem hinteren Teil unseres Autos befestigen.
 Den Motor, den wir verwenden, haben wir aus dem Totem Maker Bausystem erhalten. Für die Steuerung des Motors und der Sensoren verwenden wir einen Arduino Nano. 
 Ein LCD Monitor gibt uns Feedback zu dem aktuell laufendem Programm. 
-Vorne auf dem Auto haben wir einen Kameraturm mit der Husky Lens montiert.
+Vorne auf dem Auto haben wir einen Kameraturm mit der PIXY CAM montiert.
 
 
 Prozess:
@@ -41,7 +41,8 @@ Anschließend haben wir uns überlegt und ausprobiert, wie wir die elektronische
 Der Motorkontroller so wie unseren Hauptstromschalter haben wir auch auf der Bodenplatte befestigt. 
 Der Lipo-Akku liegt auf dem Rahmen unseres Autos.
 
-Bei den ersten Testfahrten ist uns aufgefallen, dass unser Auto in den Kurven oft über den Boden rutscht und die Reifen durchdrehen.
+Bei den ersten Testfahrten ist uns aufgefallen, dass unsere Reifen, die wir aus dem Totem Maker Bausystem genommen haben, zu groß sind und am 
+Rahmen reiben. Die zweiten Reifen waren kleiner und härter, aber sie überteuerten oft wenn das Auto zu sehr einllenkt.
 Danach sind wir auf die Reifen des Funduino Baukastens ungestiegen, die härter waren und mehr Bodenkontakt durch das kleinere Profil besitzen.
 Das Problem war dadurch teilweise gelöst.
 Die Reifen rutschten weniger, aber die Reifen drehten manchmal immernoch durch, weshalb unsere kurven ungenau wurden.
@@ -74,6 +75,17 @@ und reparieren können.
 
 ![image](https://user-images.githubusercontent.com/131177565/236902868-fe6987f2-450b-4a82-ad03-88c99bf6b534.png)
 
+Damit wir die Kurven gut fahren können haben wir außerdem neben dem Button ein Gyroskop eingebaut.
+Das Gyroskop hilft uns genaue Kurven mit immer gleich bleibendem Winkel zu fahren.
+Für das Hindernissrennen wollten wir anschließend auch eine Kamera an unserem Auto montieren.
+Wir hatten zwei verschiedene Kameras zu auswahl: Die HHUSKYLENS und die PIXY CAM 2.
 
+![image0 (1)](https://github.com/biswro2023/smartiecar/assets/131177565/883c4d95-4bc7-4951-97ae-d3c51a035d14)
 
+Wir haben beide Kameras ausprobiert und sind schließlich bei der PIXY CAM geblieben.
+Obwohl die HHUSKYLENS die Hindernisse und Linien gut erkennen konnte, hat die PIXY CAM ein größeres Blickfeld und mehr kofiguratiosns Mglichkeiten in dem zugehörigem Programm. Dadurch können wir viel mehr abstimmen und Feintuning betreiben.
 
+baterie ca 12 
+Step up koverter 
+Treiber 1.4 V
+LCD 5 V 
