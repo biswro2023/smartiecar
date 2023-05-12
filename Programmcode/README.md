@@ -20,6 +20,7 @@ Zuerst haben wir kleine kleine Testprogramme für die Bewegungen und Sensoren de
 
 Programmaufbau
 ===
+als erstes habenm wir alle Libraries, welche für den Roboter und die einzelnen Komponenten wichtig waren hinzugefügt. Zunächst haben wir Globale Variablen sowie unsere eigenen Variablen definiert. Einer der wichtigsten Aspekte unseres Programmes sind die Eigenen erstellten Funktionen. Diese sind besonders wichtig um sowohl in der Loop als auch in dem Setup den ganzen Ablauf der Rennen zu Fahren. Nennenswert ist es auch das mit den eigenen funktionen die wir erstellt haben, dass wenn mal ein Fehler oder eine Änderung vorgenommen werden sollte diese keine umständlichkeit haben. Es gibt zum einen unsere eigenen Funktionen und dann die der Pixycam oder der IMU welche wir mithilfe der testprogramme übernommen haben. Im Setup wird mit unseren eigenen funktionen alle wichtigen Komponenten wie Ultraschallsensor gestartet. Die ergebnisse werden dann auf unser LCD screen gedruckt in einer anordnung num festzustellen ob die sensoren irgendwelche Probleme aufweisen. Anschließend in der Loop werden wieder verschieden Fuktionen aufgerufen um die Blöcke mithilfe der Pixycam zu erkennen um die dann auch vor edm fahren auf dem LCD anzuzeigen , dass im Endeffekt dann kein Fehlstart geschieht. Zum schluss werden Ecken berechnet um die geziehlten runden zu fahren.
 
 
 Eröffnungsrennen
