@@ -14,12 +14,37 @@ Als auch programme zum testen ob diverse sensoren funktionieren. Zudem Backup Co
 
 · [`backup codes`](https://github.com/biswro2023/smartiecar/tree/master/Programmcode/backup%20codes)
 
+Allgemeines
+===
+Zuerst haben wir kleine kleine Testprogramme für die Bewegungen und Sensoren des Autos geschrieben. Dabei Haben wir uns an Beispielen von Funduino.de orientiert und Beispielprogramme der Sensorhersteller benutzt. Unsere neu geschrieben Programme haben wir mit einer Versionsnummer im Namen gekennzeichnet. Zum Beispiel heisst die erste Version main_OH_V1.
 
-Hindernissrennen:
-
-![Diagramm_Hindernisse](https://github.com/biswro2023/smartiecar/assets/131591590/263c1bce-014c-4458-99a9-e519d6a30377)
-
+Programmaufbau
+===
 
 
-Eröffnungsrennen:
+Eröffnungsrennen
+===
+1.  zu beginn fängt Die Funktion SpaceUS_V() den Abstand des Fahrzeugs zur Kurve zu messen.
+2.  SpaceUS_L() und SpaceUS_R() messen den Abstand des Fahrzeugs zur linken bzw. rechten Seite der Kurve.
+3.  Die Funktion IMU_getAngle() aktualisiert die Orientierung des Fahrzeugs.
+3a. wenn das auto direkt neben einer wand startet kann die FR sofort aus Abstand zu wand < 10cm bestimmt werden
+4.  Das Programm bestimmt die Fahrtrichtung anhand der gemessenen Abstände zur Kurve. sonst bestimmt das Programm die FR sobald die Abstandssensoren auf einer seite keine wand mehr erkennen können. 
+5.  Wenn das Fahrzeug geradeaus fährt, die fahrtrichtung noch nicht bekannt ist (FR==K)und der Abstand zur linken Seite der Kurve größer als 60 ist, ändert das Programm die Fahrtrichtung auf links (FR = 'L').
+5a. genau das gleiche geschieht für Rechts.
+6.  Zunächst fährt das Fahrzeug geradeaus wenn der Abstand zur rechten Wand größer als 60 ist und die FR rechtsrum ist , fährt der bot eine rechtskurve Kurve_R().
+6a. dasselbe gilt auch für links. Kurve_L()
+6b. nach jeder kurve wird die anzahl jeder ecken um eins erhöht und gespeichert. 
+7.  Wenn das Fahrzeug nach links fahren soll und der Abstand zur linken Seite der Kurve größer als 60 ist, führt das Programm die Kurve_L() Funktion aus.
+8.  Wenn das Fahrzeug nach rechts fahren soll und der Abstand zur rechten Seite der Kurve größer als 60 ist, führt das Programm die Kurve_R() Funktion aus.
+9.  Die Funktion Ausrichten() sorgt dafür, dass das Fahrzeug in die richtige Ausrichtung gebracht wird. das versucht er durch die seitenabstände die gemessen wurden das auto in die mitte zu steuern.
+9a. sobald FR bekannt ist orientiert sich der Roboter an der Innenbande aus mit einem festen Abstand von 25cm aus. Dafür haben wir die Funktionen Ausrichten_L() und Ausrichten_R()
+10. Wenn der Abstand zur Kurve kleiner als 80cm ist, fährt das Fahrzeug langsamer.
+11. Wenn das auto 12 ecken gefahren ist und diese gezählt hat, fährt er noch ein stück geradeaus und bleibt im geraden Abschnitt stehen.
+
+
 ![Diagramm_Eröffnung](https://github.com/biswro2023/smartiecar/assets/131591590/fbee0cb2-4aab-434d-a97d-d06e2026ba62)
+
+
+Hindernissrennen
+===
+![Diagramm_Hindernisse](https://github.com/biswro2023/smartiecar/assets/131591590/263c1bce-014c-4458-99a9-e519d6a30377)
