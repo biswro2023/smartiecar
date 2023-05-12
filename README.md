@@ -26,6 +26,7 @@ Als Fahrmotor benutzen wir einen Standard 12 Volt DC Motor.
 Für die Steuerung des Motors und der Sensoren verwenden wir einen Arduino Nano. 
 Ein LCD Monitor gibt uns Feedback zu dem aktuell laufendem Programm. 
 Vorne auf dem Auto haben wir eine PIXY 2.1 Kamera montiert.
-
+  
+Details zum Entwicklungsprozess des Autos Beschreiben wir in => [`Readme.md`](https://github.com/biswro2023/smartiecar/blob/master/Roboterauto/README.md)
 
 ![image0 (2)](https://github.com/biswro2023/smartiecar/assets/131591590/687d8725-438f-4099-aef0-7533da0b93fc)
