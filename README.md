@@ -13,4 +13,19 @@ Future Engineers - Smart Riders
 
 ## Einleitung
 
+
+Wir haben  uns für das Totem Maker Bausystem entschieden, um das Chassie zu bauen. Andere Teile, die wir benötigten, haben wir selbst angefertigt.
+Unsere Grundidee für das Eröffnungsrennen war, dass wir uns mit Hilfe von drei Ultraschallsensoren (rechts, links, vorne) an den Abständen zur Bande zu orientieren.
+Zusätzlich haben wir für das fahren für der Kurven einen Farbsensor und ein Gyroskop eingebaut. Im Eröffnungsrennen benutzen wir nur das Gyroskop.
+
+Zuerst haben wir einen Rahmen aus Teilen des Totem Maker Bausystems angefertigt. Anschließend haben wir aus einer 4mm Plastikplatte die Bodenplatte ausgeschnitten und den Ramen darauf befästigt.
+Nachdem die Vorderachse fertig war, zeichneten wir ein Lenkdreieck, um die Position der Hinterachse zu bestimmmen. 
+Für die Stromversorgung verwenden wir eine 11.1 Volt Lipo Batterie, die wir auf dem hinteren Teil unseres Autos befestigen.
+
+Als Fahrmotor benutzen wir einen Standard 12 Volt DC Motor.
+Für die Steuerung des Motors und der Sensoren verwenden wir einen Arduino Nano. 
+Ein LCD Monitor gibt uns Feedback zu dem aktuell laufendem Programm. 
+Vorne auf dem Auto haben wir eine PIXY 2.1 Kamera montiert.
+
+
 ![image0 (2)](https://github.com/biswro2023/smartiecar/assets/131591590/687d8725-438f-4099-aef0-7533da0b93fc)
