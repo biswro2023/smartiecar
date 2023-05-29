@@ -37,14 +37,8 @@
 
 //--------------------------------------------------
 
-//Farbsensor
-#include "Adafruit_TCS34725.h"
-
-// Pixy2 Cam
-#include "Pixy2.h"
-
 #include <NewPing.h>
-//-------------------------------------------------
+
 
 
 
@@ -60,20 +54,15 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
- Pixy2 pixy;
- int Bildmitte_x = 157;
- int Bildmitte_y = 104;
-
-
 //timer
 unsigned long start_time;
 //--------------------------------------------------
 
  //geschwindigkeiten
-  int NormG = 230;
-  int LangG = 215;
-  int KurvG = 230; 
-  int StartG = 190;
+  int NormG =  230;
+  int LangG =  215;
+  int KurvG =  230; 
+  int StartG = 145;
 
 
 //LCD anschluss
@@ -102,26 +91,8 @@ int quadrant = 0;
   //Fahrtrichtung
   char FR = 'K';
 
-  //Fahrmodus
-  char FM = 'E';
   //hindernisse
   char Block = 'K';
-
-  //huskeylens int's
-  // Linie
- int L_x1 = 0;
- int L_y1 = 0;
- int L_x2 = 0;
- int L_y2 = 0;
- int L_ID = 0;
-
- //Block
- int B_ID = 0;
- int B_x = 0;
- int B_y = 0;
- int B_hoch = 0;
- int B_breit = 0;
- int B_Unterkante = 0;
 
  //letzte kurve messen
  unsigned long MKurve;
@@ -410,23 +381,20 @@ Wire.begin();
   lcd.setRGB(255, 0, 0);
 
 //------------------------------------------------
-//von dem servo.ino
+//von dem lenkung.h
 servosetup();
 
 //-------------------------------------
 
-  lcd.setCursor(0, 0);
-  lcd.print(F("Cam OK  "));
-
-  //setup von ultraschall.ino
+  //setup von ultraschall.h
   ultraschallstart();
 
-  //initalisiert motor pinmodes von DCmotor.ino
+  //initalisiert motor pinmodes von DCmotor.h
   motorsetup();
 
   delay(5000); // 5 Sekunden warten
 
-  //gyro setup gyro.ino
+  //gyro setup gyro.h
   gyrostart();  
     
  // Abstand zur Kurve ZEIGE MESSWERTE
@@ -458,20 +426,9 @@ if(Abstand_R < 10)
     lcd.print(winkel);
     lcd.print("  ");    
     lcd.print(FR);
-    lcd.print("  ");
-    lcd.print(FM);
 
   //setup fertig, AmpGe schalten == knopf drücken
-  if (FM == 'E') 
-  {
-    lcd.setRGB(255, 130, 0);
-  }
-
-  else
-  {
-    lcd.setRGB(255, 255, 0);
-  }
-
+  lcd.setRGB(255, 130, 0);
   
   while (digitalRead(Button) == LOW) { // Warten, bis Knopf gedrückt wird
     delay(50);
@@ -484,12 +441,12 @@ if(Abstand_R < 10)
 
   // Speichere die aktuelle Zeit
   start_time = millis();
+  MKurve = millis() - ZKurve;
 
   //lenkung mitte  
   mitte();
-  MKurve = millis() - ZKurve;
+
   // Langsam erste Kurve finden
-   
    runMotor(StartG);
 
 
@@ -523,15 +480,13 @@ if(Abstand_R < 10)
     {
       FR = 'L';
       Kurve_L();
-     /*lcd.setCursor(0,0);
-      lcd.print(FR);*/
+
     }
     else if(Abstand_R >60)
     {
         FR = 'R';
         Kurve_R();
-        /*lcd.setCursor(0,0);
-        lcd.print(FR);*/
+
     }        
   }
 
@@ -578,13 +533,12 @@ if(Abstand_R < 10)
   //alle ecken prüfen
   if(ecken == 12)
   {
-    delay(3500);
+    delay(500);
     // Fahre bis zur Mitte der Seite
     Abstand = SpaceUS_V(); 
-    while (Abstand > 160)
+    while (Abstand > 140)
     {
       Abstand = SpaceUS_V(); 
-      delay(50);
     }
     PRGstopp();
   }

@@ -5,11 +5,19 @@ int in2 = 7;
 
 
  //motor run
- void runMotor(int Speed) 
+ void runMotor(int Speed)  
  {
+  int tmpSpeed;
   digitalWrite(in1, HIGH);  // Motor 1 beginnt zu rotieren
   digitalWrite(in2, LOW);
-  analogWrite(GSM1, Speed);   // Motor 1 soll mit der Geschwindigkeit "200" (max. 255) rotieren
+  if(Speed < 180)
+  {
+    tmpSpeed = 180;
+    analogWrite(GSM1, Speed);   // Motor 1 soll mit der Geschwindigkeit "200" (max. 255) rotieren
+    delay(50);
+  }
+  analogWrite(GSM1, Speed);
+
  }
 
 
@@ -29,7 +37,6 @@ void PRGstopp()
     delay(9999999);
 
 }
-
 
 
 void motorsetup()

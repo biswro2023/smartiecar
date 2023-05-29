@@ -2,7 +2,6 @@
 
 //newping librarie
 #include <NewPing.h>
-#include <RunningMedian.h>
 
 // Definition der pins
 
@@ -21,6 +20,8 @@
 
 #define MAX_DISTANCE 200
 #define ITERATIONS   3
+float distance = 0;
+
 
 NewPing US_V(TRIG_PIN_V, ECHO_PIN_V, MAX_DISTANCE);
 NewPing US_L(TRIG_PIN_L, ECHO_PIN_L, MAX_DISTANCE);
@@ -30,28 +31,32 @@ NewPing US_R(TRIG_PIN_R, ECHO_PIN_R, MAX_DISTANCE);
 //US eigene function Vorne
 int SpaceUS_V()
 {
+  int Abstand;
+  Abstand = US_V.ping_median(ITERATIONS, MAX_DISTANCE);
+  distance = (float)Abstand;
 
-  distance = US_V.ping_median(ITERATIONS MAX_DISTANCE);
-
-   return distance;
+  return distance;
 }
 
 //US eigene function Rechts
 int SpaceUS_R()
 {
-
-  distance = US_R.ping_median(ITERATIONS MAX_DISTANCE);
+  int Abstand;
+  Abstand = US_R.ping_median(ITERATIONS, MAX_DISTANCE);
+  distance = (float)Abstand;
   
-   return distance;
+  return distance;
 
 }
 
 //US eigene function Links
 int SpaceUS_L()
 {
-  distance = US_L.ping_median(ITERATIONS MAX_DISTANCE);
-   
-   return distance;
+  int Abstand;
+  Abstand = US_L.ping_median(ITERATIONS, MAX_DISTANCE);
+  distance = (float)Abstand;
+  
+  return distance;
 
 }
 
