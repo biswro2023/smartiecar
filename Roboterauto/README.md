@@ -6,12 +6,12 @@ Prozess:
 
 Zu Beginn haben wir die ersten Schritte, der im Totem Maker Bausystem beigelegten Bauanleitung befolgt, um einen stabilen Rahmen für das Auto zu erhalten. 
 
-![Frame](https://user-images.githubusercontent.com/131177565/235680006-affdd363-4297-4a06-9caa-a8125de43fb9.png)
+![Frame](https://github.com/biswro2023/smartiecar/assets/131591590/7b94b2d6-2c67-4be1-86b2-c1722326a118)
 
 Da das Auto, das die Anleitung beschreibt zu breit ist, mussten wir die Vorderachse kürzen. So überschreitet unser Auto die vorgegebenen Maße nicht.
 
-![image1](https://user-images.githubusercontent.com/131177565/235680801-dcf372b3-89f4-4a34-b5b8-66f85cb70028.jpeg)
 
+![image1](https://github.com/biswro2023/smartiecar/assets/131591590/8c653eb3-eba5-4a73-b68e-20d79b029bfa)
 Die 3D gedruckten Teile, der Vorderachse stammen aus der STL-Libary von Totem Maker.
 Zu dem Zeitpunkt haben wir die standard Reifen des Totem Maker Bausystems verwendet. 
 Danach haben wir eine Bodenplatte aus 4mm dickem Kunststoff geschnitten und an die Vorderachse geschraubt.
@@ -38,7 +38,8 @@ Damit wir den Arduino auf dem Auto befestigen können, haben wir zuerst eine vor
 Diese ist aber leider gebrochen, weshalb wir eine neue Platte aus enem dickerem Kunststoff schneiden mussten.
 Der Aurduino ist nun mit Kunststoff Abständen an dieser Platte fest geschraubt.
 
-![image1](https://github.com/biswro2023/smartiecar/assets/131177565/343355ef-cd43-4d30-9ed9-53aeb299f880)
+![image](https://github.com/biswro2023/smartiecar/assets/131591590/4a2641aa-95c6-4875-b37b-3e4e3f8ba7f4)
+
 
 Als der Ardunio befestigt war konnten wir schließlich Programme für das Auto schreiben und ausprobieren.
 Um auch Feedback zu Problemen oder Erfolgen zu erhalten, haben wir ein LCD-Monitor auf dem Auto befestigt.
@@ -48,15 +49,15 @@ Als wir den Monitor zum erstem mal angeschlossen hatten, konten wir nichts erken
 Wir fanden herraus, dass der Monitor 5 Volt benötigt, wir ihn aber nur 4.7 Volt angeschlossen hatten.
 Deshalb haben wir sowohl für die Stromversorgung des LCD-Monitors als auch für die Stromversorgungs unseres Lenkservos eine extra Stromversorgungsleiste eingebaut
 
-![image0 (2)](https://github.com/biswro2023/smartiecar/assets/131177565/ef6eb164-e023-4361-834d-cc200a337ebe)
+
+![237098416-ef6eb164-e023-4361-834d-cc200a337ebe](https://github.com/biswro2023/smartiecar/assets/131591590/9290e95d-9778-4164-b21f-74ed072e3c0a)
 
 Oben auf unserem Auto haben wir neben dem LCD-Monitor und der Stromleiste außerdem auch noch den Button für den Start und den Gyro für die Kurven montiert.
 Zu Beginn hatten wir einen anderen größeren Button verwendet. Weil der jedoch einen großen Wiederstandhatte, der das Auto beim drücken mit nach unten drückte, und weil er nicht gut erreichbar montiert war,
 haben wir den Button ausgetauscht zu dem Button, den wir jetzt verwenden.
 Anschließend haben wir uns um das Kabelmanagement gekümmert. Wir haben die wichtigen Anschlüsse des Hauptsromsystems an der Außenseite mit schnell verschlüssen befestigt, da mit wir das Auto schnell warten 
 und reparieren können.
-
-![image](https://user-images.githubusercontent.com/131177565/236902868-fe6987f2-450b-4a82-ad03-88c99bf6b534.png)
+![236902868-fe6987f2-450b-4a82-ad03-88c99bf6b534](https://github.com/biswro2023/smartiecar/assets/131591590/2c079680-4ace-4fe6-b9e3-82ea87bd17f3)
 
 Damit wir die Kurven gut fahren können haben wir außerdem neben dem Button ein Gyroskop eingebaut.
 Das Gyroskop hilft uns genaue Kurven mit immer gleich bleibendem Winkel zu fahren.
@@ -75,6 +76,8 @@ Diese 5 Volt leiten wir anschließend in einen USB-Hub der gleichzeitig auch als
 Aus diesem USB-Hub geht eine Stromleitung dierekt zu dem Arduino und die andere zur Hauptstromleiste. Diese mussten wir installieren, weil 
 die 5 Volt ausgabe des Arduinos nicht genau 5 Volt ausgibt. Sowohl der LCD Monitor als auch der Lenkservo benötigen nämlich mindestens 5 Volt.
 
-![Elektronik](https://github.com/biswro2023/smartiecar/assets/131177565/53173d58-f437-4e53-b33c-3225937c58c4)
+
+![238084341-53173d58-f437-4e53-b33c-3225937c58c4](https://github.com/biswro2023/smartiecar/assets/131591590/da4db8a2-8d09-4db8-a71d-653b116fd0f1)
+
 
 
