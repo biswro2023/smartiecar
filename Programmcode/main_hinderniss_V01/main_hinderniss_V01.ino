@@ -82,7 +82,7 @@ int quadrant = 0;
 
  //geschwindigkeiten
   int NormG = 230;
-  int LangG = 215;
+  int LangG = 185;
   int KurvG = 230; 
 
   //hindernisse
