@@ -93,6 +93,37 @@ float IMU_getAngle()
 
 }
 
+
+float IMU_ZW_gerade()
+{
+  // berechne gerade-Winkel im aktuellen Quadranten
+  float ZW = 0.0;
+  quadrant = ecken % 4;
+  
+  if(quadrant == 0)
+  {
+    ZW = 360.0;
+  }
+  else if(quadrant == 1)
+  {
+    ZW = 90.0;
+  }
+  else if(quadrant == 2)
+  {
+    ZW = 180.0;
+  }
+  else if(quadrant == 3)
+  {
+    ZW = 270.0;
+  }	
+	
+
+	return ZW;
+	
+}
+
+
+
 void gyrostart()
 {    
   byte status = IMU_begin();

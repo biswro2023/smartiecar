@@ -4,7 +4,7 @@
 
 //servo pin
 int Servopin = 3;
-int mittig = 135;
+int mittig = 87;
 // Erstelle ein Servo-Objekt
 Servo servo;
 
