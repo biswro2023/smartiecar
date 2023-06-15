@@ -79,5 +79,27 @@ die 5 Volt ausgabe des Arduinos nicht genau 5 Volt ausgibt. Sowohl der LCD Monit
 
 ![238084341-53173d58-f437-4e53-b33c-3225937c58c4](https://github.com/biswro2023/smartiecar/assets/131591590/da4db8a2-8d09-4db8-a71d-653b116fd0f1)
 
+Nach dem ersten Wettbewerb in Chemitzt haben wir beschlossen die Halterung für die Kamera und die Ultraschallsensoren umzubauen.
+Die alte Halterung hat sich schnell gelöst und verschoben. Nun ist die neu Halterung fest an den Rahmen des Autos befestigt.
+
+Bild Rahem/Sensoren
+
+Außerde haben wir für die Ultraschallsensoren neue Halterungen verwendet, damit sie stabiler sitzten und einfacher zu montieren sind.
+Durch diese neuen Halterungen der Sensoren, waren diese jedoch leicht nach oben geneigt, was manchmal zu fehlmessungen führte.
+Deshalb haben wir Kabelbinder verwendet, um die Sensoren zusammen zu binden und unten zu halten.
+Da der Farbsensor, den wir zuvor an unserem Auto befestigt hatten die Farben des Spielfeldes immer wieder falsch erkannte,
+haben wir uns dafür entschieden diesen zu entfernen, da er so keien Nutzen für uns hat.
+
+Zusätzlich haben wir versucht ein neues Getriebe in das Auto einzubauen (zuvor 1:1). Wir wollten eine größere Übersetzung der Zahnräder dazu verwenden
+unser Auto langsam fahren zu lassen, ohne, dass es stecken bleibt. Den zuvor konnten wir dies nur verhindern, indem wir schneller fuhren,
+was das ganze Rennen ungenauer machte.Schließlich hat aber das neue Getriebe mehr neue Probleme hervorgebracht als alte gelöst.
+
+Bild Getrieb neu
+
+Während der vielen Testrunden die wir gefahren sind ist neben Sensoren und Arduinos auch unser Lenkserveo einmal kaputt gegangen.
+Die Kontruktionsweise des Autos behinderte den Austausch etwas jedoch haben wir die Gelegenheit genutz gleichzeitig auch noch Teile Auszutauschen, an
+die man sonst nicht so leicht dran kommt.
+
+Bild Auto Reperatr
 
 
