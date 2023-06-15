@@ -114,7 +114,7 @@ was das ganze Rennen ungenauer machte.Schließlich hat aber das neue Getriebe me
 
 
 Während der vielen Testrunden die wir gefahren sind ist neben Sensoren und Arduinos auch unser Lenkserveo einmal kaputt gegangen.
-Die Kontruktionsweise des Autos behinderte den Austausch etwas jedoch haben wir die Gelegenheit genutz gleichzeitig auch noch Teile Auszutauschen, an
+Die Kontruktionsweise des Autos behinderte den Austausch etwas, jedoch haben wir die Gelegenheit genutz gleichzeitig auch noch Teile Auszutauschen, an
 die man sonst nicht so leicht dran kommt.
 
 
