@@ -1,11 +1,11 @@
 Videos Deutschlandfinale
 ===
 
-Eröffnungsrennen 2.0
+Eröffnungsrennen 2.0:
 
 https://www.youtube.com/watch?v=THO9AemBE4c
 
-Hindernissrennen 2.0
+Hindernissrennen 2.0:
 
 
 
@@ -14,10 +14,10 @@ Hindernissrennen 2.0
 Videos Regionalwettbewerb
 ===
 
-Eröffnungsrennen
+Eröffnungsrennen:
 
 https://youtu.be/rYEnA0GrXhI
 
-Hindernisrennen
+Hindernisrennen:
 
 https://youtu.be/dkJfYt5depk
