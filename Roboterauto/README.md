@@ -8,17 +8,22 @@ Zu Beginn haben wir die ersten Schritte, der im Totem Maker Bausystem beigelegte
 
 ![Frame](https://github.com/biswro2023/smartiecar/assets/131591590/7b94b2d6-2c67-4be1-86b2-c1722326a118)
 
+
 Da das Auto, das die Anleitung beschreibt zu breit ist, mussten wir die Vorderachse kürzen. So überschreitet unser Auto die vorgegebenen Maße nicht.
 
 
 ![image1](https://github.com/biswro2023/smartiecar/assets/131591590/8c653eb3-eba5-4a73-b68e-20d79b029bfa)
+
+
 Die 3D gedruckten Teile, der Vorderachse stammen aus der STL-Libary von Totem Maker.
 Zu dem Zeitpunkt haben wir die standard Reifen des Totem Maker Bausystems verwendet. 
 Danach haben wir eine Bodenplatte aus 4mm dickem Kunststoff geschnitten und an die Vorderachse geschraubt.
 Wir haben eine 4mm Platte genommen, da wir vermuteten, dass eine Platte, die nur 2mm dick ist, schnell brechen würde.
 Um die Position der Hinterachse zu bestimmen haben wir mit Hilfe einer Bauzeichnung  unserer Bodenplatte ein Lenkdreieck gezeichnet.
 
+
 ![Bodenplatte-1](https://user-images.githubusercontent.com/131177565/235682426-33cb649e-8ef1-453e-b3f9-9b506c7610f3.png)
+
 
 Die Hinterachse und den Motor haben wir dann auf die Bodenplatte geschraubt.
 Der Motor ist mit einer 1:1 Überetzung mit zwei Zahnrädern an der Hinterachse angeschlossen.
@@ -32,11 +37,14 @@ Das Problem war dadurch teilweise gelöst.
 Jetzt und Final verwenden wir Reifen, die weicher sind und kein Profil besitzen, wodurch der Bodenkontakt maximiert wird.
 Diese Reifen haben wir aus einem Modellbauladen erhalten.
 
+
 ![image0 (1)](https://github.com/biswro2023/smartiecar/assets/131177565/c86c0d01-40ef-4458-8a59-f7c86a03f72b)
+
 
 Damit wir den Arduino auf dem Auto befestigen können, haben wir zuerst eine vorgeschnitte Kunststoffplatte aus dem Funduino Bauset benutzt. 
 Diese ist aber leider gebrochen, weshalb wir eine neue Platte aus enem dickerem Kunststoff schneiden mussten.
 Der Aurduino ist nun mit Kunststoff Abständen an dieser Platte fest geschraubt.
+
 
 ![image](https://github.com/biswro2023/smartiecar/assets/131591590/4a2641aa-95c6-4875-b37b-3e4e3f8ba7f4)
 
@@ -60,7 +68,8 @@ Anschließend haben wir uns um das Kabelmanagement gekümmert. Wir haben die wic
 und reparieren können.
 
 
-![236902868-fe6987f2-450b-4a82-ad03-88c99bf6b534](https://github.com/biswro2023/smartiecar/assets/131591590/2c079680-4ace-4fe6-b9e3-82ea87bd17f3)
+![Bild SV](https://github.com/biswro2023/smartiecar/assets/131177565/a73ba44c-52b8-4dde-ab65-c6c7560cb832)
+
 
 Damit wir die Kurven gut fahren können haben wir außerdem neben dem Button ein Gyroskop eingebaut.
 Das Gyroskop hilft uns genaue Kurven mit immer gleich bleibendem Winkel zu fahren.
