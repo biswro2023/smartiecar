@@ -7,9 +7,9 @@ Future Engineers - Smart Riders
 ## Inhalt
 
 * Der Ordner [`Programmcode`](https://github.com/biswro2023/smartiecar/tree/master/Programmcode) enthält den kompletten Programmcode, der für das Roboterauto verwendet wird.
-* Im Ordner [`Roboterauto`](https://github.com/biswro2023/smartiecar/tree/master/Roboterauto) sind sechs Fotos Von unserem Roboterauto aus allen Perspektiven
+* Im Ordner [`Roboterauto`](https://github.com/biswro2023/smartiecar/tree/master/Roboterauto) befinden sich sechs Fotos Von unserem Roboterauto aus allen Perspektiven
 * Im Ordner [`Technische Zeichnungen`](https://github.com/biswro2023/smartiecar/tree/master/Technische%20Zeichnungen) sind Zeichnungen von Komponenten des Roboterautos oder dem gesamten Roboterauto abgelegt.
-* Der Ordner [`Video`](https://github.com/biswro2023/smartiecar/blob/master/Video/video.md) beinhaltet die Datei "video.md", die mit einem Link zu einem Youtube-Video. Das Video zeigt das Roboterauto beim Absolvieren des Spielfeldes.
+* Der Ordner [`Video`](https://github.com/biswro2023/smartiecar/blob/master/Video/video.md) beinhaltet die Datei "video.md", die mit zwei Links zu den Youtube-Videos weiterleitet. Das Video zeigt das Roboterauto beim Absolvieren des Spielfeldes in beiden Rennen.
 
 ## Einleitung
 
