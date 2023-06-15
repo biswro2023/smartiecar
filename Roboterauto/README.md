@@ -29,7 +29,7 @@ Der Lipo-Akku liegt auf dem Rahmen unseres Autos.
 Bei den ersten Testfahrten ist uns aufgefallen, dass unsere Reifen, die wir aus dem Totem Maker Bausystem genommen haben, zu groß sind und am 
 Rahmen schleifen. Die zweiten Reifen uas dem Funduino Bauset waren kleiner und härter, aber sie übersteuerten oft wenn das Auto zu sehr einlenk.
 Das Problem war dadurch teilweise gelöst.
-Jetzt und Final verwenden wir Reifen, die sehr hart sind und kein Profil besitzen, wodurch der Bodenkontakt maximiert wird.
+Jetzt und Final verwenden wir Reifen, die weicher sind und kein Profil besitzen, wodurch der Bodenkontakt maximiert wird.
 Diese Reifen haben wir aus einem Modellbauladen erhalten.
 
 ![image0 (1)](https://github.com/biswro2023/smartiecar/assets/131177565/c86c0d01-40ef-4458-8a59-f7c86a03f72b)
@@ -52,11 +52,14 @@ Deshalb haben wir sowohl für die Stromversorgung des LCD-Monitors als auch für
 
 ![237098416-ef6eb164-e023-4361-834d-cc200a337ebe](https://github.com/biswro2023/smartiecar/assets/131591590/9290e95d-9778-4164-b21f-74ed072e3c0a)
 
+
 Oben auf unserem Auto haben wir neben dem LCD-Monitor und der Stromleiste außerdem auch noch den Button für den Start und den Gyro für die Kurven montiert.
 Zu Beginn hatten wir einen anderen größeren Button verwendet. Weil der jedoch einen großen Wiederstandhatte, der das Auto beim drücken mit nach unten drückte, und weil er nicht gut erreichbar montiert war,
 haben wir den Button ausgetauscht zu dem Button, den wir jetzt verwenden.
 Anschließend haben wir uns um das Kabelmanagement gekümmert. Wir haben die wichtigen Anschlüsse des Hauptsromsystems an der Außenseite mit schnell verschlüssen befestigt, da mit wir das Auto schnell warten 
 und reparieren können.
+
+
 ![236902868-fe6987f2-450b-4a82-ad03-88c99bf6b534](https://github.com/biswro2023/smartiecar/assets/131591590/2c079680-4ace-4fe6-b9e3-82ea87bd17f3)
 
 Damit wir die Kurven gut fahren können haben wir außerdem neben dem Button ein Gyroskop eingebaut.
