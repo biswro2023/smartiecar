@@ -1,8 +1,7 @@
-Technische Zeichnungen
+Videos
 ====
 
 Dieser Ordner enthält:
 
-eine pdf Datei der Bodenplatte unseres Roboters,
-
-sowie eine Bild Datei mit dem aktuellsten Schaltplan
+Videos von unseren Testläufen.
+Sowohl vor als auch nach dem Regionalwettbewerb.
