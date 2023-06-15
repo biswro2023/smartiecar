@@ -118,7 +118,8 @@ Die Kontruktionsweise des Autos behinderte den Austausch etwas jedoch haben wir 
 die man sonst nicht so leicht dran kommt.
 
 
-![Reperatur1](https://github.com/biswro2023/smartiecar/assets/131177565/b75e4616-6f98-4121-9724-7c0ae52b63f0)
+![IMG_6400](https://github.com/biswro2023/smartiecar/assets/131177565/e23a8204-81a6-4e5f-acc2-7981690d5138)
+
 
 
 
