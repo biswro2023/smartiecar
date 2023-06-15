@@ -14,23 +14,16 @@ Future Engineers - Smart Riders
 
 ## Einleitung
 
+Nach dem Ende unseres vorherigen FLL Wettbewerbes wollten wir erneut an einem Projekt arbeiten. Wir haben uns dazu entschieden in der WRO mitzuspielen und uns die verschiedenen Kategorien angeschaut. Ein anderes Team an unserer Schule hatte bereits an einem Future Engineers Projekt gearbeitet. Das hat uns sehr interessiert und wir haben uns entschieden ebenfalls in dieser Kategorie zu spielen. Selbstfahrende Autos sind generell schon ein sehr interessantes und aktuelles Thema, das in der heutigen Zeit immer wichtiger wird. Zu Beginn hörten sich die Aufgaben, wie Runden auf einer Matte zu fahren, deutlich leichter an, als sie tatsäclich waren. Schwierigkeiten machten oft Kleinigkeiten, wie Messungenauigkeiten oder dreckige Reifen.
+Im Laufe der Zeit haben wir viel Arbeit in die Fehlervermeidung und Vorbeugung gesteckt. Wir haben viele Sicherheitsmechanismen eigebaut, bis das Auto in fast allen Situationen gut gefahren ist. Insgesamt aben wir jetzt deutlich besser verstanden, wie schwer die Entwicklung und Produktion von selbstfahrenden Autos eigentlich ist.
 
-Wir haben  uns für das Totem Maker Bausystem entschieden, um das Chassie zu bauen. Andere Teile, die wir benötigten, haben wir selbst angefertigt.
-Unsere Grundidee für das Eröffnungsrennen war, dass wir uns mit Hilfe von drei Ultraschallsensoren (rechts, links, vorne) an den Abständen zur Bande zu orientieren.
-Zusätzlich haben wir für das fahren für der Kurven einen Farbsensor und ein Gyroskop eingebaut. Im Eröffnungsrennen benutzen wir nur das Gyroskop.
+Details zum Entwicklungsprozess von Chassis und Elektronik des Autos Beschreiben wir in => [`RoboterAuto-Readme.md`](https://github.com/biswro2023/smartiecar/blob/master/Roboterauto/README.md)
 
-Zuerst haben wir einen Rahmen aus Teilen des Totem Maker Bausystems angefertigt. Anschließend haben wir aus einer 4mm Plastikplatte die Bodenplatte ausgeschnitten und den Ramen darauf befästigt.
-Nachdem die Vorderachse fertig war, zeichneten wir ein Lenkdreieck, um die Position der Hinterachse zu bestimmmen. 
-Für die Stromversorgung verwenden wir eine 11.1 Volt Lipo Batterie, die wir auf dem hinteren Teil unseres Autos befestigen.
+Das Programm und Informationen zur Steuerlogik befinden sich in => [`Programmcode`](https://github.com/biswro2023/smartiecar/tree/master/Programmcode)
 
-Als Fahrmotor benutzen wir einen Standard 12 Volt DC Motor.
-Für die Steuerung des Motors und der Sensoren verwenden wir einen Arduino Nano. 
-Ein LCD Monitor gibt uns Feedback zu dem aktuell laufendem Programm. 
-Vorne auf dem Auto haben wir eine PIXY 2.1 Kamera montiert.
-  
-Details zum Entwicklungsprozess des Autos Beschreiben wir in => [`RoboterAuto-Readme.md`](https://github.com/biswro2023/smartiecar/blob/master/Roboterauto/README.md)
+Unser Auto in Aktion ist zu sehen in =>  [`Video-Readme.md`](https://github.com/biswro2023/smartiecar/blob/master/Video/video.md)
 
-![image0 (2)](https://github.com/biswro2023/smartiecar/assets/131591590/687d8725-438f-4099-aef0-7533da0b93fc)
+![Kino Shot](https://github.com/biswro2023/smartiecar/assets/131591590/fc04ec51-3d58-4e73-8fdc-12cf246e6331)
 
 
 Quellen:
