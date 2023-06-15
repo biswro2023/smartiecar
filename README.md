@@ -30,8 +30,7 @@ Vorne auf dem Auto haben wir eine PIXY 2.1 Kamera montiert.
   
 Details zum Entwicklungsprozess des Autos Beschreiben wir in => [`RoboterAuto-Readme.md`](https://github.com/biswro2023/smartiecar/blob/master/Roboterauto/README.md)
 
-
-![Kino Shot](https://github.com/biswro2023/smartiecar/assets/131591590/ce92f81d-79a8-4eff-bb73-5efd8d601d7f)
+![image0 (2)](https://github.com/biswro2023/smartiecar/assets/131591590/687d8725-438f-4099-aef0-7533da0b93fc)
 
 
 Quellen:
