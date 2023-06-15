@@ -46,7 +46,7 @@ Diese ist aber leider gebrochen, weshalb wir eine neue Platte aus enem dickerem 
 Der Aurduino ist nun mit Kunststoff Abständen an dieser Platte fest geschraubt.
 
 
-![image](https://github.com/biswro2023/smartiecar/assets/131591590/4a2641aa-95c6-4875-b37b-3e4e3f8ba7f4)
+![Links](https://github.com/biswro2023/smartiecar/assets/131177565/8c6c1879-a27a-4534-aaba-69cf2ef00b81)
 
 
 Als der Ardunio befestigt war konnten wir schließlich Programme für das Auto schreiben und ausprobieren.
