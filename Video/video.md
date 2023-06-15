@@ -7,8 +7,7 @@ https://www.youtube.com/watch?v=THO9AemBE4c
 
 Hindernissrennen 2.0:
 
-https://www.youtube.com/watch?v=XJ41yYR21cs
-
+https://www.youtube.com/watch?v=kWGVBycZVr8
 
 
 Videos Regionalwettbewerb
