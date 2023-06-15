@@ -30,7 +30,7 @@ Der Motorkontroller so wie unseren Hauptstromschalter haben wir auch auf der Bod
 Der Lipo-Akku liegt auf dem Rahmen unseres Autos.
 
 Bei den ersten Testfahrten ist uns aufgefallen, dass unsere Reifen, die wir aus dem Totem Maker Bausystem genommen haben, zu groß sind und am 
-Rahmen schleifen. Die zweiten Reifen uas dem Funduino Bauset waren kleiner und härter, aber sie übersteuerten oft wenn das Auto zu sehr einlenk.
+Rahmen schleifen. Die zweiten Reifen aus dem Funduino Bauset waren kleiner und härter, aber sie übersteuerten oft wenn das Auto zu sehr einlenk.
 Das Problem war dadurch teilweise gelöst.
 Jetzt und Final verwenden wir Reifen, die weicher sind und kein Profil besitzen, wodurch der Bodenkontakt maximiert wird.
 Diese Reifen haben wir aus einem Modellbauladen erhalten.
@@ -77,7 +77,7 @@ Wir hatten zwei verschiedene Kameras zu auswahl: Die HHUSKYLENS und die PIXY CAM
 ![image0 (1)](https://github.com/biswro2023/smartiecar/assets/131177565/883c4d95-4bc7-4951-97ae-d3c51a035d14)
 
 Wir haben beide Kameras ausprobiert und sind schließlich bei der PIXY CAM geblieben.
-Obwohl die HHUSKYLENS die Hindernisse und Linien gut erkennen konnte, hat die PIXY CAM ein größeres Blickfeld und mehr kofiguratiosns Mglichkeiten in dem zugehörigem Programm. Dadurch können wir viel mehr abstimmen und Feintuning betreiben.
+Obwohl die HHUSKYLENS die Hindernisse und Linien gut erkennen konnte, hat die PIXY CAM ein größeres Blickfeld und mehr kofiguratiosns Möglichkeiten in dem zugehörigem Programm. Dadurch können wir viel mehr abstimmen und Feintuning betreiben.
 
 Für die Energeiversorgung, die wir uns schon zu Beginn zurechtgelegt haben, benutzen wir eine 11,5 Volt Lipo Batterie.
 Die Batterie gibt zwischen 9,4 und 12,4 Volt aus. Da der Motor 12 Volt benötigt und der zugehörige Motortreiber gleichzeitig auch noch 1,4 Volt bezieht, haben wir einen Step Up Converter einegbaut, der die Spannung auf 13.4 Volt erhöht.
