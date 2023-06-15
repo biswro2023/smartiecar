@@ -4,18 +4,15 @@ Roboterauto
 
 Prozess:
 
-
-Zu Beginn haben wir die ersten Schritte, der im Totem Maker Bausystem beigelegten Bauanleitung befolgt, um einen stabilen Rahmen für das Auto zu erhalten. 
-
-![Frame](https://github.com/biswro2023/smartiecar/assets/131591590/7b94b2d6-2c67-4be1-86b2-c1722326a118)
-
-
+Wir haben uns für die Konstruktion des Autos für das Totem Maker Bausystem (siehe Quellen) entschieden. Das Auto, dass auf der Website vorgeschlagen ist, ist zu groß und hat einen nicht erlaubten Antrieb. Deswegen haben wir unser Chassis neu konstruiert und nur teilweise auf die Anleitung zurückgegriffen.
+Zu Beginn haben wir die ersten Schritte, der im Totem Maker Bausystem vorgeschlagenem Bauanleitung befolgt, um eine stabile Vorderachse zu erhalten.
 Da das Auto, das die Anleitung beschreibt zu breit ist, mussten wir die Vorderachse kürzen. So überschreitet unser Auto die vorgegebenen Maße nicht.
 
 
 ![image1](https://github.com/biswro2023/smartiecar/assets/131591590/8c653eb3-eba5-4a73-b68e-20d79b029bfa)
 
 
+Die Vorderachse beinhalted 3D gedruckte Teile, die jedoch von Totem Maker gedruckt und beigelegt wurden.
 Die 3D gedruckten Teile, der Vorderachse stammen aus der STL-Libary von Totem Maker.
 Zu dem Zeitpunkt haben wir die standard Reifen des Totem Maker Bausystems verwendet. 
 Danach haben wir eine Bodenplatte aus 4mm dickem Kunststoff geschnitten und an die Vorderachse geschraubt.
