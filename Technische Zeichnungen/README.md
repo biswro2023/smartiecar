@@ -1,4 +1,8 @@
 Technische Zeichnungen
 ====
 
-Dieser Ordner sollte ein oder mehrere technische Zeichnungen von Komponenten des Roboterautos enthalten.
+Dieser Ordner enthält:
+
+eine pdf Datei der Bodenplatte unseres Roboters,
+
+sowie eine Bild Datei mit dem aktuellsten Schaltplan
