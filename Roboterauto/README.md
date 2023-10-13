@@ -10,7 +10,7 @@ Da das Auto, das die Anleitung beschreibt zu breit ist, mussten wir die Vorderac
 
 
 ![image1](https://github.com/biswro2023/smartiecar/assets/131591590/8c653eb3-eba5-4a73-b68e-20d79b029bfa)
-
+<img src="https://github.com/biswro2023/smartiecar/assets/131591590/8c653eb3-eba5-4a73-b68e-20d79b029bfa" width="50%">
 
 Die Vorderachse beinhalted 3D gedruckte Teile, die jedoch von Totem Maker gedruckt und beigelegt wurden.
 Die 3D gedruckten Teile, der Vorderachse stammen aus der STL-Libary von Totem Maker.
